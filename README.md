@@ -16,6 +16,7 @@ To install LH-07 Os Installer, simply run the following command in your terminal
 * git clone https://github.com/zooxinirll/Os-Installer/
 * cd Os-Installer
 * pip install colorama
+* pip install pyfiglet
 * python main.py
 
 # Usage:
