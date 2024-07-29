@@ -11,8 +11,13 @@ init(autoreset=True)
 # Animation function
 def animation():
     text = "|/-\\"
-    for i in range(100):                                                                                                                                                                                                                                                                                          time.sleep(0.1)  # You can change this value for speed of animation
-        sys.stdout.write("\r" + text[i % len(text)])
+    try:
+        for i in range(100):  # You can change this value for speed of animation
+            time.sleep(0.1)
+            sys.stdout.write("\r" + text[i % len(text)])
+            sys.stdout.flush()
+    except KeyboardInterrupt:
+        sys.stdout.write("\r" + " " * len(text) + "\r")
         sys.stdout.flush()
 
 # Clear terminal function
@@ -36,6 +41,17 @@ def animated_credits():
             time.sleep(0.05)
         sys.stdout.write("\n")
         time.sleep(0.5)
+
+# Function to install OS
+def install_os(script_url, script_name):
+    try:
+        os.system("pkg update -y && pkg install wget curl proot tar -y")
+        os.system(f"wget {script_url} -O {script_name}")
+        os.system(f"chmod +x {script_name}")
+        os.system(f"bash {script_name}")
+        print(Fore.GREEN + f"{script_name.split('-')[0].title()} installed successfully!")
+    except Exception as e:
+        print(Fore.RED + f"An error occurred: {e}")
 
 # Main function
 def main():
@@ -67,29 +83,13 @@ def main():
     choice = input(Fore.WHITE + "Enter your choice : ")
 
     if choice == "1":
-        os.system("pkg update -y && pkg install wget curl proot tar -y")
-        os.system("wget -O install-nethunter-termux https://offs.ec/2MceZWr")
-        os.system("chmod +x install-nethunter-termux")
-        os.system("./install-nethunter-termux")
-        print(Fore.GREEN + "Kali Linux installed successfully!")
+        install_os("https://offs.ec/2MceZWr", "install-nethunter-termux")
     elif choice == "2":
-        os.system("pkg update -y && pkg install wget curl proot tar -y")
-        os.system("wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu22/ubuntu22-xfce.sh -O ubuntu22-xfce.sh")
-        os.system("chmod +x ubuntu22-xfce.sh")
-        os.system("bash ubuntu22-xfce.sh")
-        print(Fore.GREEN + "Ubuntu installed successfully!")
+        install_os("https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu22/ubuntu22-xfce.sh", "ubuntu22-xfce.sh")
     elif choice == "3":
-        os.system("pkg update -y && pkg install wget curl proot tar -y")
-        os.system("wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Debian/debian-xfce.sh -O debian-xfce.sh")
-        os.system("chmod +x debian-xfce.sh")
-        os.system("bash debian-xfce.sh")
-        print(Fore.GREEN + "Desbian installed successfully!")
+        install_os("https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Debian/debian-xfce.sh", "debian-xfce.sh")
     elif choice == "4":
-        os.system("pkg update -y && pkg install wget curl proot tar -y")
-        os.system("wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Arch/armhf/arch-xfce.sh -O arch-xfce.sh")
-        os.system("chmod +x arch-xfce.sh")
-        os.system("bash arch-xfce.sh")
-        print(Fore.GREEN + "ArcLinux installed successfully!")
+        install_os("https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Arch/armhf/arch-xfce.sh", "arch-xfce.sh")
     elif choice == "5":
         os.system("apt update -y")
         print(Fore.GREEN + "System updated successfully!")
@@ -103,10 +103,9 @@ def main():
         print(Fore.RED + "Invalid choice!")
         main()
 
+    # Start the animation
     animation()
 
 if __name__ == "__main__":
     main()
-
-
-
+            
