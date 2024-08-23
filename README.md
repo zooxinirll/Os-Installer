@@ -18,6 +18,7 @@ This Python script provides an interactive terminal-based tool for installing va
 1. **Install Required Packages**: Ensure you have `termcolor`, `pyfiglet`, and `tqdm` installed in your Python environment.
    ```bash
    pip install termcolor pyfiglet tqdm
+   
 Clone the Repository:
  ```bash
 git clone https://github.com/zooxinirll/os-installer.git
@@ -32,16 +33,13 @@ Initial Setup: You will be prompted to run the initial setup to ensure Termux is
 Choose OS: Select the Linux distribution you want to install from the interactive menu.
 Installation: Follow the prompts to download and install the selected OS.
 ### 📋 Example
-bash
-Copy code
-python os_installer.py
 You will be greeted with an interactive menu where you can select the OS you want to install.
 
-🔧 Troubleshooting
+### 🔧 Troubleshooting
 Ensure you have an active internet connection.
 Verify that Termux is properly set up with storage permissions.
 If you encounter issues, try updating Termux and its packages.
-📢 Credits
+### 📢 Credits
 Author: LocalHost.07
 Tool Description: An advanced Termux-based OS installer for various Linux distributions.
 Language Used: Python
