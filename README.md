@@ -27,6 +27,7 @@ This Python script provides an interactive terminal-based tool for installing va
 
 4. **Change Directory** :
 
+    ```bash
     cd Os-Installer
 
 
