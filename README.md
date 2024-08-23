@@ -1,5 +1,8 @@
 # OS Installer Script
 
+<p align="center">
+<img src="https://img.shields.io/badge/Language-Python-3572A5?style=for-the-badge&logo=python&logoColor=white" /> </p>
+
 ## 🌟 Overview
 
 This Python script provides an interactive terminal-based tool for installing various Linux distributions on Termux. It automates the setup and installation process for multiple operating systems using simple commands and prompts.
@@ -44,7 +47,7 @@ Language Used: Python
 Copyright: © 2024 LocalHost.07
 Disclaimer: This tool is for educational purposes only.
 ### 🌐 Connect With Me
-<p align="center"> <a href="https://github.com/zooxinirll" target="_blank"> <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://www.instagram.com/h3r.10c4lh0st.07?igsh=MTRqcGNsdmN3a2FyaA==" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a> <img src="https://img.shields.io/badge/Language-Python-3572A5?style=for-the-badge&logo=python&logoColor=white" /> </p>
+<p align="center"> <a href="https://github.com/zooxinirll" target="_blank"> <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://www.instagram.com/h3r.10c4lh0st.07?igsh=MTRqcGNsdmN3a2FyaA==" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a></p>
 
 ### 🧠 Let's Collaborate
 I'm always open to discussing new projects, innovative ideas, and opportunities. Feel free to reach out via my social platforms!
