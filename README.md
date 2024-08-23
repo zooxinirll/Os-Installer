@@ -23,7 +23,7 @@ This Python script provides an interactive terminal-based tool for installing va
 2. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/zooxinirll/os-installer.git
+   git clone https://github.com/zooxinirll/Os-Installer.git
 
 4. **Change Directory** :
 
@@ -48,10 +48,15 @@ Verify that Termux is properly set up with storage permissions.
 If you encounter issues, try updating Termux and its packages.
 ### 📢 Credits
 Author: LocalHost.07
+
 Tool Description: An advanced Termux-based OS installer for various Linux distributions.
+
 Language Used: Python
+
 Copyright: © 2024 LocalHost.07
+
 Disclaimer: This tool is for educational purposes only.
+
 ### 🌐 Connect With Me
 <p align="center"> <a href="https://github.com/zooxinirll" target="_blank"> <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://www.instagram.com/h3r.10c4lh0st.07?igsh=MTRqcGNsdmN3a2FyaA==" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a></p>
 
