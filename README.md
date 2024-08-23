@@ -22,7 +22,7 @@ This Python script provides an interactive terminal-based tool for installing va
    
 2. **Clone the Repository**:
 
-    git clone https://github.com/zooxinirll/os-installer.git
+   git clone https://github.com/zooxinirll/os-installer.git
 
 3. **Change Directory** :
 
