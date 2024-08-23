@@ -20,7 +20,7 @@ This Python script provides an interactive terminal-based tool for installing va
    ```bash
    pip install termcolor pyfiglet tqdm
    
-2 . ***Clone the Repository**:
+### Clone the Repository
 
     ```bash
     git clone https://github.com/zooxinirll/os-installer.git
