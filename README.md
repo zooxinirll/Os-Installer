@@ -1,38 +1,77 @@
-# Os-Installer
-LH-07 Os Installer
+# OS Installer Script
 
-A Python script to easily install rootless operating systems on Android devices.
+## 🌟 Overview
 
-# Features:
-Installs Kali Linux, Ubuntu, Debian, and Arch Linux with a single command Supports rootless installation, no need for root access Easy to use, just select the OS you want to install and follow the prompts Animated installation process to keep you entertained
+This Python script provides an interactive terminal-based tool for installing various Linux distributions on Termux. It automates the setup and installation process for multiple operating systems using simple commands and prompts.
 
-# Installation Commands:
-To install LH-07 Os Installer, simply run the following command in your terminal:
+### Features
+- **Initial Setup:** Ensures Termux environment is prepared for installations.
+- **Interactive Menu:** Allows users to choose and install different Linux distributions.
+- **Loading Animation:** Provides visual feedback during installation.
+- **Credits Section:** Displays author and tool information.
 
-* apt update -y && apt upgrade -y
-* pkg update -y && pkg upgrade -y
-* pkg install python -y
-* pkg install git
-* git clone https://github.com/zooxinirll/Os-Installer/
-* cd Os-Installer
-* pip install colorama
-* pip install pyfiglet
-* python main.py
+## 🛠 Installation
 
-# Usage:
-Run the script and select the OS you want to install from the menu. Follow the prompts to complete the installation. Wait for the installation to complete, and you'll be ready to go!
+1. **Install Required Packages**: Ensure you have `termcolor`, `pyfiglet`, and `tqdm` installed in your Python environment.
+   ```bash
+   pip install termcolor pyfiglet tqdm
+Clone the Repository:
 
-# Note:
-Make sure you have the necessary dependencies installed, including pkg, wget, curl, proot, and tar. This script is for educational purposes only, and you should use it at your own risk. The author is not responsible for any damage or issues caused by the script.
+bash
+Copy code
+git clone https://github.com/zooxinirll/os-installer.git
+cd os-installer
+Run the Script:
 
-# License:
-This project is licensed under the MIT License. See the LICENSE file for details.
+📜 Usage
+Initial Setup: You will be prompted to run the initial setup to ensure Termux is properly configured.
+Choose OS: Select the Linux distribution you want to install from the interactive menu.
+Installation: Follow the prompts to download and install the selected OS.
+📋 Example
+bash
+Copy code
+python os_installer.py
+You will be greeted with an interactive menu where you can select the OS you want to install.
 
-# Credits:
+🔧 Troubleshooting
+Ensure you have an active internet connection.
+Verify that Termux is properly set up with storage permissions.
+If you encounter issues, try updating Termux and its packages.
+📢 Credits
 Author: LocalHost.07
+Tool Description: An advanced Termux-based OS installer for various Linux distributions.
+Language Used: Python
+Copyright: © 2024 LocalHost.07
+Disclaimer: This tool is for educational purposes only.
+🌐 Connect With Me
+<p align="center"> <a href="https://github.com/zooxinirll" target="_blank"> <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://www.instagram.com/h3r.10c4lh0st.07?igsh=MTRqcGNsdmN3a2FyaA==" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a> <img src="https://img.shields.io/badge/Language-Python-3572A5?style=for-the-badge&logo=python&logoColor=white" /> </p>
+🧠 Let's Collaborate
+I'm always open to discussing new projects, innovative ideas, and opportunities. Feel free to reach out via my social platforms!
 
-Program: Python
+css
+Copy code
 
-Tool is for Installing Rootless Os for Your Android Device Easily.
+Feel free to adjust the content to fit your preferences or any additional information you’d like to include!
 
-Made With Love [❤️]
+
+
+
+You said:
+Get a file to download 
+ChatGPT said:
+ChatGPT
+To provide a downloadable file with the contents for the README.md, I'll prepare a text file with the markdown content. You can download it using the link below:
+
+Download README.md
+
+
+
+
+
+
+
+
+Add more OS options?
+
+Any known bugs?
+
