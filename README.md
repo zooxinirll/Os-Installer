@@ -43,35 +43,8 @@ Tool Description: An advanced Termux-based OS installer for various Linux distri
 Language Used: Python
 Copyright: © 2024 LocalHost.07
 Disclaimer: This tool is for educational purposes only.
-🌐 Connect With Me
+### 🌐 Connect With Me
 <p align="center"> <a href="https://github.com/zooxinirll" target="_blank"> <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /> </a> <a href="https://www.instagram.com/h3r.10c4lh0st.07?igsh=MTRqcGNsdmN3a2FyaA==" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /> </a> <img src="https://img.shields.io/badge/Language-Python-3572A5?style=for-the-badge&logo=python&logoColor=white" /> </p>
-🧠 Let's Collaborate
+
+### 🧠 Let's Collaborate
 I'm always open to discussing new projects, innovative ideas, and opportunities. Feel free to reach out via my social platforms!
-
-css
-Copy code
-
-Feel free to adjust the content to fit your preferences or any additional information you’d like to include!
-
-
-
-
-You said:
-Get a file to download 
-ChatGPT said:
-ChatGPT
-To provide a downloadable file with the contents for the README.md, I'll prepare a text file with the markdown content. You can download it using the link below:
-
-Download README.md
-
-
-
-
-
-
-
-
-Add more OS options?
-
-Any known bugs?
-
