@@ -21,10 +21,9 @@ This Python script provides an interactive terminal-based tool for installing va
 Clone the Repository:
  ```bash
 git clone https://github.com/zooxinirll/os-installer.git
-
+ ```bash
 cd os-installer
 
----
 
 Run the Script:
 
@@ -32,7 +31,7 @@ Run the Script:
 Initial Setup: You will be prompted to run the initial setup to ensure Termux is properly configured.
 Choose OS: Select the Linux distribution you want to install from the interactive menu.
 Installation: Follow the prompts to download and install the selected OS.
-📋 Example
+### 📋 Example
 bash
 Copy code
 python os_installer.py
