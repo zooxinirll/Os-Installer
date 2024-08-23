@@ -23,18 +23,21 @@ This Python script provides an interactive terminal-based tool for installing va
 ### Clone the Repository
 
     ```bash
+    
     git clone https://github.com/zooxinirll/os-installer.git
 
 3 . ***Change Directory** :
 
      ```bash
+     
      cd Os-Installer
 
 
 Run the Script:
 
     ```bash
-python3 main.py
+    
+    python3 main.py
 
 ### 📜 Usage 
 Initial Setup: You will be prompted to run the initial setup to ensure Termux is properly configured.
