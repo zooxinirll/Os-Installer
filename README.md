@@ -16,16 +16,17 @@ This Python script provides an interactive terminal-based tool for installing va
 ## 🛠 Installation
 
 1. **Install Required Packages**: Ensure you have `termcolor`, `pyfiglet`, and `tqdm` installed in your Python environment.
+ 
    ```bash
    pip install termcolor pyfiglet tqdm
    
 2 . ***Clone the Repository**:
     ```bash
-git clone https://github.com/zooxinirll/os-installer.git
+    git clone https://github.com/zooxinirll/os-installer.git
 
 3 . ***Change Directory** :
      ```bash
-cd os-installer
+     cd Os-Installer
 
 
 Run the Script:
