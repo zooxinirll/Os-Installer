@@ -23,9 +23,8 @@ This Python script provides an interactive terminal-based tool for installing va
  ```bash
 git clone https://github.com/zooxinirll/os-installer.git
 
-3 . ***change The Directory**:
-
- ```bash
+3 . ***Clone the Repository**:
+  ```bash
 cd os-installer
 
 
