@@ -26,15 +26,11 @@ This Python script provides an interactive terminal-based tool for installing va
 
 3 . ***Change Directory** :
 
-     ```bash
-     
      cd Os-Installer
 
 
 Run the Script:
 
-    ```bash
-    
     python3 main.py
 
 ### 📜 Usage 
