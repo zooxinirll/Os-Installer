@@ -60,7 +60,7 @@ Installation: Follow the prompts to download and install the selected OS.
 ### 📋 Example
 When you run the script, you'll be greeted with an interactive menu where you can select from the list of available Linux distributions:
 
-   ``bash
+   ```bash
    [1] : Kali Linux
    [2] : Ubuntu
    [3] : Debian
@@ -71,6 +71,7 @@ When you run the script, you'll be greeted with an interactive menu where you ca
    [8] : Credits
    [9] : Exit
 
+   ``` 
 ### 🔧 Troubleshooting
 Ensure you have an active internet connection.
 Verify that Termux is properly set up with storage permissions.
