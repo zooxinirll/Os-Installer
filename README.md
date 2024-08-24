@@ -22,7 +22,7 @@ The following Linux distributions can be installed using this script:
 * Alpine Linux
 * Void Linux
 * Manjaro Linux
-* 
+*  
 Additionally, the tool includes an option to view credits and exit the script.
 
 ### Features
@@ -60,7 +60,6 @@ Installation: Follow the prompts to download and install the selected OS.
 ### 📋 Example
 When you run the script, you'll be greeted with an interactive menu where you can select from the list of available Linux distributions:
 
-   ```bash
    [1] : Kali Linux
    [2] : Ubuntu
    [3] : Debian
