@@ -23,7 +23,7 @@ This Python script provides an interactive terminal-based tool for installing va
 1. **Install Required Packages**: Ensure you have `termcolor`, `pyfiglet`, and `tqdm` installed in your Python environment.
  
    ```bash
-   pip install requirements.txt
+   pip install -r requirements.txt
    
 2. **Clone the Repository**:
 
