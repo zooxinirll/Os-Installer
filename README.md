@@ -3,6 +3,9 @@
 <p align="center">
 <img src="https://img.shields.io/badge/Language-Python-3572A5?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/github/license/zooxinirll/S0rXD0?style=for-the-badge" />
+<a href="https://opensource.org/licenses/MIT">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License Badge" />
+</a>
 <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge" />
 </p>
 
