@@ -58,7 +58,18 @@ Initial Setup: You will be prompted to run the initial setup to ensure Termux is
 Choose OS: Select the Linux distribution you want to install from the interactive menu.
 Installation: Follow the prompts to download and install the selected OS.
 ### 📋 Example
-You will be greeted with an interactive menu where you can select the OS you want to install.
+When you run the script, you'll be greeted with an interactive menu where you can select from the list of available Linux distributions:
+
+   ```bash
+   [1] : Kali Linux
+   [2] : Ubuntu
+   [3] : Debian
+   [4] : Arch Linux
+   [5] : Alpine Linux
+   [6] : Void Linux
+   [7] : Manjaro Linux
+   [8] : Credits
+   [9] : Exit
 
 ### 🔧 Troubleshooting
 Ensure you have an active internet connection.
