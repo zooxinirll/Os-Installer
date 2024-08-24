@@ -32,22 +32,21 @@ Additionally, the tool includes an option to view credits and exit the script.
 - **Credits Section:** Displays author and tool information.
 
 ## 🛠 Installation
-
-1. **Install Required Packages**: Ensure you have `termcolor`, `pyfiglet`, and `tqdm` installed in your Python environment.
- 
-   ```bash
-   pip install -r requirements.txt
    
-2. **Clone the Repository**:
+1. **Clone the Repository**:
 
    ```bash
    git clone https://github.com/zooxinirll/Os-Installer.git
 
-4. **Change Directory** :
+2. **Change Directory** :
 
     ```bash
     cd Os-Installer
-
+    
+3. **Install Required Packages**: Ensure you have `termcolor`, `pyfiglet`, and `tqdm` installed in your Python environment.
+ 
+   ```bash
+   pip install -r requirements.txt
 
 Run the Script:
 
