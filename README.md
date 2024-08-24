@@ -12,6 +12,19 @@
 
 This Python script provides an interactive terminal-based tool for installing various Linux distributions on Termux. It automates the setup and installation process for multiple operating systems using simple commands and prompts.
 
+### Supported Operating Systems
+The following Linux distributions can be installed using this script:
+
+* Kali Linux
+* Ubuntu
+* Debian
+* Arch Linux
+* Alpine Linux
+* Void Linux
+* Manjaro Linux
+* 
+Additionally, the tool includes an option to view credits and exit the script.
+
 ### Features
 - **Initial Setup:** Ensures Termux environment is prepared for installations.
 - **Interactive Menu:** Allows users to choose and install different Linux distributions.
