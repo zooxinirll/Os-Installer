@@ -1,4 +1,4 @@
-# OS Installer Script
+# OS Installer 
 
 <p align="center">
 <img src="https://img.shields.io/badge/Language-Python-3572A5?style=for-the-badge&logo=python&logoColor=white"/>
